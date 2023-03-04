@@ -1,0 +1,30 @@
+{
+    "XPARAMS": {
+        "TRAIN": {
+            "PATH": "C:\\Users\\trisr\\Desktop\\deepl\\train\\\\",
+            "MODE": "HDF5"
+        },
+        "TEST": {
+            "PATH": "C:\\Users\\trisr\\Desktop\\deepl\\train\\\\",
+            "MODE": "HDF5"
+        }
+    },
+    "XPREPROCESS": {
+        "HDF5_GW_detection": null
+    },
+    "YPARAMS": {
+        "TRAIN": {
+            "PATH": "C:\\Users\\trisr\\Desktop\\deepl\\train\\train_labels.csv",
+            "MODE": "csv",
+            "COL": "target",
+            "INDEX": "id"
+        },
+        "TEST": {
+            "PATH": "C:\\Users\\trisr\\Desktop\\deepl\\train\\train_labels.csv",
+            "MODE": "csv",
+            "COL": "target",
+            "INDEX": "id"
+        }
+    },
+    "YPREPROCESS": null
+}

@@ -1,0 +1,311 @@
+{
+    "layer 0": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 16,
+            "kernel_size": 4,
+            "strides": [4,1],
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 1": {
+        "name": 2,
+        "layer_type": "BatchNormalization",
+        "layer_config": {
+
+        }
+    },
+    "layer 2": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "rate": 0.5
+        }
+    },
+
+    "layer 3": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 32,
+            "kernel_size": 4,
+            "strides": [2,1],
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 4": {
+        "name": 2,
+        "layer_type": "BatchNormalization",
+        "layer_config": {
+
+        }
+    },
+    "layer 5": {
+    "name": 2,
+    "layer_type": "Dropout",
+    "layer_config": {
+        "rate": 0.5
+    }
+    },
+
+    "layer 6": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 64,
+            "kernel_size": 4,
+            "strides": [2,1],
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 7": {
+    "name": 2,
+    "layer_type": "BatchNormalization",
+    "layer_config": {
+
+    }
+    },
+    "layer 8": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "name": null,
+            "trainable": null,
+            "dtype": null,
+            "rate": 0.5,
+            "noise_shape": null,
+            "seed": null
+        }
+    },
+
+
+    "layer 9": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 64,
+            "kernel_size": 4,
+            "strides": [2,2],
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 10": {
+        "name": 2,
+        "layer_type": "BatchNormalization",
+        "layer_config": {
+
+        }
+    },
+    "layer 11": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "rate": 0.5
+        }
+    },
+
+    "layer 12": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 64,
+            "kernel_size": 4,
+            "strides": 1,
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 13": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "rate" : 0.5
+        }
+    },
+    "layer 14": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 128,
+            "kernel_size": 4,
+            "strides": 2,
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 15": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "rate" : 0.5
+        }
+    },
+    "layer 16": {
+        "name": 1,
+        "layer_type": "Conv2D",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "filters": 64,
+            "kernel_size": 4,
+            "strides": 2,
+            "padding": "same",
+            "data_format": null,
+            "dilation_rate": null,
+            "groups": null,
+            "activation": "relu",
+            "use_bias": null,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    },
+    "layer 17": {
+        "name": 2,
+        "layer_type": "Dropout",
+        "layer_config": {
+            "rate" : 0.5
+        }
+    },
+    "layer 18": {
+        "name": 2,
+        "layer_type": "MaxPooling2D",
+        "layer_config": {
+            "name": null,
+            "trainable": null,
+            "dtype": null,
+            "pool_size": [
+                2,
+                2
+            ],
+            "padding": null,
+            "strides": null,
+            "data_format": "channels_last"
+        }
+    },
+
+
+    "layer 19": {
+        "name": 4,
+        "layer_type": "Flatten",
+        "layer_config": {
+            "name": null,
+            "trainable": null,
+            "dtype": null,
+            "data_format": null
+        }
+    },
+    "layer 20": {
+        "name": 4,
+        "layer_type": "Dense",
+        "layer_config": {
+            "name": null,
+            "trainable": true,
+            "dtype": null,
+            "units": 1,
+            "activation": "sigmoid",
+            "use_bias": true,
+            "kernel_initializer": "RandomUniform",
+            "bias_initializer": "zeros",
+            "kernel_regularizer": "l2",
+            "bias_regularizer": null,
+            "activity_regularizer": null,
+            "kernel_constraint": null,
+            "bias_constraint": null
+        }
+    }
+}

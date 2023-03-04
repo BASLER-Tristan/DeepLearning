@@ -1,0 +1,12 @@
+{
+    "XPARAMS": {
+        "TRAIN": {
+            "PATH": "D:/tfrecord_file.tfrecord",
+            "MODE": "TFRecord",
+            "METHOD": "full",
+            "SHUFFLE_BUFFER_SIZE": "20",
+            "BATCH_SIZE": "1"
+        }
+    },
+    "XPREPROCESS": null
+}

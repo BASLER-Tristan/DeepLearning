@@ -1,0 +1,7 @@
+{
+    "name": "BinaryCross",
+    "type": "BinaryCrossentropy",
+    "params": {
+        "from_logits": false
+    }
+}

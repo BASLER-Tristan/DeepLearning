@@ -1,0 +1,20 @@
+{
+    "XPARAMS": {
+        "TRAIN": {
+            "PATH": "D:/dataset_padded_scaled/train/tfrecord.tfrecord",
+            "MODE": "TFRecord",
+            "METHOD": "full",
+            "SHUFFLE_BUFFER_SIZE": "5",
+            "BATCH_SIZE": "1",
+            "parse_function": "None"
+        },
+        "TEST": {
+            "PATH": "D:/dataset_padded_scaled/test/tfrecord.tfrecord",
+            "MODE": "TFRecord",
+            "METHOD": "full",
+            "SHUFFLE_BUFFER_SIZE": "5",
+            "BATCH_SIZE": "1",
+            "parse_function": "None"
+        }
+    }
+}
